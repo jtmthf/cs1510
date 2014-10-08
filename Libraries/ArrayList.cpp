@@ -158,7 +158,7 @@ void ArrayList<T>::push_back(const T & value)
     delete []m_data;
     m_data = tempData;
   }
-  m_data[m_size++ -1] = value;
+  m_data[m_size++] = value;
   return;
 }
 

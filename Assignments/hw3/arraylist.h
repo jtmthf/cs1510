@@ -53,7 +53,7 @@ public:
   // Postconditions: Current size and maximum size set to 0, 
   // and data set to NULL
   // -- INLINE
-  ArrayList(): m_size(0), m_max(0), m_data(NULL) {};
+  ArrayList(): m_size(0), m_max(0), m_data(NULL), m_errobj() {};
 
   /* 
    * ---- Big 3 Member Functions ---
